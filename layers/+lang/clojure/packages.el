@@ -153,7 +153,7 @@
           "ss" (if (eq m 'cider-repl-mode)
                    'cider-switch-to-last-clojure-buffer
                  'cider-switch-to-repl-buffer)
-          "sx" 'cider-refresh
+          "sx" 'cider-ns-refresh
 
           "Te" 'cider-enlighten-mode
           "Tf" 'spacemacs/cider-toggle-repl-font-locking
